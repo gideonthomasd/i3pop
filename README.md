@@ -1,6 +1,6 @@
 # i3pop
 
-POP OS (or ununtu)
+POP OS (or ubuntu)
 
 sudo apt upgrade && sudo apt update
 
