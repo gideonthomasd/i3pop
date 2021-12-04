@@ -2,7 +2,7 @@
 
 sudo apt update && sudo apt upgrade
 
-sudo apt install i3 dmenu lxappearance snapd pcmanfm thunar feh xcompmgr geany unzip fonts-font-awesome rofi gsimplecal curl sxhkd wget lxtask lxpolkit vlc lxterminal vim i3blocks gparted flatpak i3lock-fancy python3-pip fonts-powerline fonts-noto -yy
+sudo apt install i3 dmenu lxappearance snapd pcmanfm thunar feh xcompmgr geany unzip fonts-font-awesome rofi gsimplecal curl sxhkd wget lxtask lxpolkit vlc lxterminal vim i3blocks gparted flatpak i3lock-fancy python3-pip fonts-powerline fonts-noto moc -yy
 
 mkdir -p $HOME"/.fonts"
 
