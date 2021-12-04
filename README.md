@@ -8,3 +8,9 @@ sudo apt install git
 
 git clone https://github.com/gideonthomasd/i3pop
 
+cd i3pop
+
+chmod +x *.sh
+
+./i3pop.sh
+
