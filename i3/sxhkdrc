@@ -4,26 +4,26 @@
 
 # terminal emulator
 super + Return
-	st
+	lxterminal
 # For transparency do yay -S ....
 # program launcher
 super + p
-	dmenu_run
+	dmenu_run -fn "Noto Sans Regular-16" -sb "#990000" -sf "#FFFF66" -p "Run: "
 
 ctrl + g
 	geany
 	
-super + v
+ctrl + v
 	pavucontrol
 
 super + d
-        doublecmd
+        rofi -modi drun -show drun -disable-history -icon-theme "Papirus" -show-icons
 	
 super + F1
 	firefox
 
 super + F2
-	pcmanfm
+	thunar
 	
 super + F3
 	lxtask
@@ -46,7 +46,7 @@ F11
     lxterminal
 	
 F12
-	thunar
+	pcmanfm
 	
 ctrl + Right
 	feh --bg-scale --randomize ~/Pictures/wallpapers/*
@@ -54,13 +54,13 @@ ctrl + Right
 ctrl + F2
 	lxterminal -e "curl wttr.in/Caerphilly && read"
 	
-ctrl + F1
+ctrl + F3
 	lxterminal -e "htop"
 	
-ctrl + F3
+ctrl + F4
 	gsimplecal
 
-ctrl + F4
+ctrl + F1
 	mocp -G
 	
 ctrl + n
