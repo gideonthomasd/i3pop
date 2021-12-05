@@ -1,6 +1,6 @@
 # i3pop
 
-POP OS (or ubuntu)
+POP OS Nvidia or Not (or ubuntu)
 
 sudo apt upgrade && sudo apt update
 
