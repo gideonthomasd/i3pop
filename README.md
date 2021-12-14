@@ -10,7 +10,7 @@ git clone https://github.com/gideonthomasd/i3pop
 
 cd i3pop
 
-chmod +x *.sh
+chmod +x *.sh  (several files needed)
 
 ./i3pop.sh
 
