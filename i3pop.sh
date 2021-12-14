@@ -27,6 +27,16 @@ mkdir -p $HOME"/.local/bin"
 #mkdir -p $HOME"/.config/xmobar"
 #mkdir -p $HOME"/.xmonad"
 
+###########################################
+#### Install Spectrwm #####################
+###########################################
+
+cp spectrwm.conf ~/.spectrwm.conf
+cp baraction.sh ~/.local/bin/baraction.sh
+cp weather_spectrwm.sh ~/.local/bin/weather_spectrwm.sh
+cp spectrwm.sh ~/.local/bin/spectrwm.sh
+cp powermenu.sh ~/powermenu.sh
+
 cd i3
 chmod +x *.sh
 chmod +x testwallpaper
