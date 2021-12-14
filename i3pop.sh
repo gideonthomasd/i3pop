@@ -4,6 +4,8 @@ sudo apt update && sudo apt upgrade
 
 sudo apt install i3 dmenu htop lxappearance ubuntu-restricted-extras snapd pcmanfm thunar feh pavucontrol xcompmgr geany unzip fonts-font-awesome rofi gsimplecal curl sxhkd wget lxtask lxpolkit vlc lxterminal vim i3blocks gparted flatpak i3lock-fancy python3-pip fonts-powerline fonts-noto moc -yy
 
+sudo apt install aptitude spectrwm --yy
+
 mkdir -p $HOME"/.fonts"
 
 #mkdir -p $HOME"/.config"
