@@ -4,9 +4,10 @@ sudo apt update && sudo apt upgrade
 
 sudo apt install i3 dmenu htop lxappearance ubuntu-restricted-extras snapd pcmanfm thunar feh pavucontrol xcompmgr geany unzip fonts-font-awesome rofi gsimplecal curl sxhkd wget lxtask lxpolkit vlc lxterminal vim i3blocks gparted flatpak i3lock-fancy python3-pip fonts-powerline fonts-noto moc -yy
 
-sudo apt install aptitude spectrwm --yy
+sudo apt install aptitude spectrwm bspwm polybar --yy
 
 mkdir -p $HOME"/.fonts"
+mkdir -p $HOME"/.icons"
 
 #mkdir -p $HOME"/.config"
 mkdir -p $HOME"/.config/lxterminal"
@@ -26,6 +27,35 @@ mkdir -p $HOME"/.local"
 mkdir -p $HOME"/.local/bin"
 #mkdir -p $HOME"/.config/xmobar"
 #mkdir -p $HOME"/.xmonad"
+
+###########################################
+##### Bspwm ###############################
+mkdir -p $HOME"/.config/bspwm"
+mkdir -p $HOME"/.config/polybar-bspwm"
+
+cd polybar-bspwm
+chmod +x *.sh
+cd scripts
+chmod +x *.sh
+cd ..
+cd ..
+
+cd bspwm
+chmod +x bspwmrc
+cd ..
+
+cd polybar-bspwm
+cp -r * ~/.config/polybar-bspwm
+cd ..
+
+cd bspwm
+cp -r * ~/.config/bspwm
+cd ..
+
+cd icons
+cp -r * ~/.icons
+cd ..
+
 
 ###########################################
 #### Install Spectrwm #####################
