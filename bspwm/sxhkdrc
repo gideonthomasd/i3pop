@@ -63,10 +63,10 @@ ctrl + F5
 ctrl + shift + m
 	lxterminal -e 'padsp mocp'
 
-ctrl + shift + n
+ctrl + n
 	mocp --next
 	
-ctrl + shift + p
+ctrl + p
 	mocp --previous
 	
 ctrl + Right

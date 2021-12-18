@@ -31,7 +31,7 @@ $HOME/.config/polybar-bspwm/launch.sh &
 ######PATH not set yet############
 #~/.config/bspwm/launch.sh NOT USED
 
-
+lxappearance &
 
 
 
