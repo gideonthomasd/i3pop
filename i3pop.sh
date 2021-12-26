@@ -6,8 +6,12 @@ sudo apt install i3 dmenu htop lxappearance ubuntu-restricted-extras snapd pcman
 
 sudo apt install aptitude spectrwm bspwm polybar --yy
 
+sudo apt install awesome awesome-extra
+
 mkdir -p $HOME"/.fonts"
 mkdir -p $HOME"/.icons"
+
+mkdir -p $HOME"/.config/awesome"
 
 #mkdir -p $HOME"/.config"
 mkdir -p $HOME"/.config/lxterminal"
@@ -27,6 +31,11 @@ mkdir -p $HOME"/.local"
 mkdir -p $HOME"/.local/bin"
 #mkdir -p $HOME"/.config/xmobar"
 #mkdir -p $HOME"/.xmonad"
+
+#########################################
+####### Awesome #########################
+
+
 
 ###########################################
 ##### Bspwm ###############################
