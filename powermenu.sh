@@ -36,6 +36,7 @@ then
     pkill bspwm
     pkill dwm
     pkill xmonad
+    pkill awesome
 elif [ "$selected_option" == "$shutdown" ]
 then
     systemctl poweroff
